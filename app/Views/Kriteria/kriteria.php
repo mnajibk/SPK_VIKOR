@@ -19,7 +19,7 @@
                             <th>Kode Kriteria</th>
                             <th>Nama Kriteria</th>
                             <th>Bobot</th>
-                            <th>Edit</th>
+                           
                         </tr>
                     </thead>
                     <tbody>
@@ -29,11 +29,7 @@
                             <td><?= $C['kode_kriteria']; ?></td>
                             <td><?= $C['nama_kriteria']; ?></td>
                             <td><?= $C['bobot']; ?></td>
-                            <td>
-                                <a href="/edit_kriteria/<?= $C['kode_kriteria']; ?>" class="btn btn-warning">
-                                    <i class="fa fa-edit"></i>
-                                </a>
-                            </td>
+                           
                         </tr>
                         <?php endforeach; ?>
                     </tbody>
