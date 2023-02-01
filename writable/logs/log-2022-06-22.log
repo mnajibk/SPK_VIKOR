@@ -1,0 +1,189 @@
+CRITICAL - 2022-06-22 11:26:15 --> Class "App\Controllers\AlternatifModel" not found
+in APPPATH\Controllers\Spk.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Spk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 11:39:29 --> Undefined variable $x
+in APPPATH\Views\Alternatif\alternatif.php on line 27.
+ 1 APPPATH\Views\Alternatif\alternatif.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $x', 'APPPATH\\Views\\Alternatif\\alternatif.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Alternatif\\alternatif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alternatif/alternatif', [], true)
+ 5 APPPATH\Controllers\Spk.php(26): view('alternatif/alternatif')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 11:41:35 --> Undefined variable $x
+in APPPATH\Views\Alternatif\alternatif.php on line 27.
+ 1 APPPATH\Views\Alternatif\alternatif.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $x', 'APPPATH\\Views\\Alternatif\\alternatif.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Alternatif\\alternatif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alternatif/alternatif', [], true)
+ 5 APPPATH\Controllers\Spk.php(26): view('alternatif/alternatif')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 11:46:07 --> Undefined variable $ALTERNATIF
+in APPPATH\Views\Alternatif\alternatif.php on line 22.
+ 1 APPPATH\Views\Alternatif\alternatif.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ALTERNATIF', 'APPPATH\\Views\\Alternatif\\alternatif.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Alternatif\\alternatif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alternatif/alternatif', [], true)
+ 5 APPPATH\Controllers\Spk.php(26): view('alternatif/alternatif')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 11:48:02 --> Undefined variable $ALTERNATIF
+in APPPATH\Views\Alternatif\alternatif.php on line 22.
+ 1 APPPATH\Views\Alternatif\alternatif.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ALTERNATIF', 'APPPATH\\Views\\Alternatif\\alternatif.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Alternatif\\alternatif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alternatif/alternatif', [], true)
+ 5 APPPATH\Controllers\Spk.php(34): view('alternatif/alternatif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 11:48:15 --> Undefined array key "kode_alternatif"
+in APPPATH\Views\Alternatif\alternatif.php on line 28.
+ 1 APPPATH\Views\Alternatif\alternatif.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_alternatif"', 'APPPATH\\Views\\Alternatif\\alternatif.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Alternatif\\alternatif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alternatif/alternatif', [], true)
+ 5 APPPATH\Controllers\Spk.php(34): view('alternatif/alternatif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 12:11:50 --> Invalid file: edit_alternatif.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_alternatif.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('edit_alternatif', [], true)
+ 3 APPPATH\Controllers\Spk.php(75): view('edit_alternatif', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_alternatif('A1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 12:12:18 --> Invalid file: edit_alternatif.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_alternatif.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('edit_alternatif', [], true)
+ 3 APPPATH\Controllers\Spk.php(75): view('edit_alternatif', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_alternatif('A1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 12:12:24 --> Invalid file: edit_alternatif.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_alternatif.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('edit_alternatif', [], true)
+ 3 APPPATH\Controllers\Spk.php(75): view('edit_alternatif', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_alternatif('A1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 12:24:37 --> Too few arguments to function App\Controllers\Spk::edit_alternatif(), 0 passed in C:\xampp\htdocs\portofolio\SPK VIKOR\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Spk.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_alternatif()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 12:34:39 --> Undefined variable $ekstra
+in APPPATH\Views\Alternatif\edit_alternatif.php on line 9.
+ 1 APPPATH\Views\Alternatif\edit_alternatif.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ekstra', 'APPPATH\\Views\\Alternatif\\edit_alternatif.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Alternatif\\edit_alternatif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/alternatif/edit_alternatif', [], true)
+ 5 APPPATH\Controllers\Spk.php(75): view('/alternatif/edit_alternatif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_alternatif('A1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 12:36:04 --> Undefined variable $ekstra
+in APPPATH\Views\Alternatif\edit_alternatif.php on line 9.
+ 1 APPPATH\Views\Alternatif\edit_alternatif.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ekstra', 'APPPATH\\Views\\Alternatif\\edit_alternatif.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Alternatif\\edit_alternatif.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/alternatif/edit_alternatif', [], true)
+ 5 APPPATH\Controllers\Spk.php(75): view('/alternatif/edit_alternatif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_alternatif('A1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 17:57:05 --> Undefined property: App\Controllers\Spk::$kriteriaModel
+in APPPATH\Controllers\Spk.php on line 106.
+ 1 APPPATH\Controllers\Spk.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Spk::$kriteriaModel', 'APPPATH\\Controllers\\Spk.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->kriteria()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-22 18:28:44 --> Column 'kode_kriteria' cannot be null
+CRITICAL - 2022-06-22 18:31:06 --> Invalid file: /kriteria/edit_kriteria.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/kriteria/edit_kriteria.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/kriteria/edit_kriteria', [], true)
+ 3 APPPATH\Controllers\Spk.php(145): view('/kriteria/edit_kriteria', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_kriteria('C1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-22 18:31:13 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-06-22 18:32:28 --> Unknown column 'id' in 'where clause'
+ERROR - 2022-06-22 18:32:32 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-22 18:36:25 --> Undefined array key "id"
+in APPPATH\Views\Kriteria\edit_kriteria.php on line 9.
+ 1 APPPATH\Views\Kriteria\edit_kriteria.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Kriteria\\edit_kriteria.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Kriteria\\edit_kriteria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/kriteria/edit_kriteria', [], true)
+ 5 APPPATH\Controllers\Spk.php(145): view('/kriteria/edit_kriteria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->edit_kriteria('C1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 18:36:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\Spk.php(155): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->update_kriteria('1')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-22 18:37:33 --> Unknown column 'kriteria.id' in 'where clause'
+ERROR - 2022-06-22 18:45:15 --> Unknown column 'kriteria.id' in 'where clause'
+ERROR - 2022-06-22 18:46:47 --> Unknown column 'kriteria.id' in 'where clause'
+ERROR - 2022-06-22 18:49:13 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2022-06-22 18:51:18 --> Undefined array key "id_kriteria"
+in APPPATH\Views\Kriteria\kriteria.php on line 31.
+ 1 APPPATH\Views\Kriteria\kriteria.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kriteria"', 'APPPATH\\Views\\Kriteria\\kriteria.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Kriteria\\kriteria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kriteria/kriteria', [], true)
+ 5 APPPATH\Controllers\Spk.php(110): view('kriteria/kriteria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->kriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

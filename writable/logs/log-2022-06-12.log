@@ -1,0 +1,30 @@
+CRITICAL - 2022-06-12 06:33:03 --> Invalid file: /kriteria/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/kriteria/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/kriteria/index', [], true)
+ 3 APPPATH\Controllers\Spk.php(31): view('/kriteria/index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->kriteria()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 06:34:17 --> Invalid file: /alternatif/kriteria.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/alternatif/kriteria.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/alternatif/kriteria', [], true)
+ 3 APPPATH\Controllers\Spk.php(24): view('/alternatif/kriteria')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 06:34:36 --> Invalid file: /Bobot/kriteria.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Bobot/kriteria.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/Bobot/kriteria', [], true)
+ 3 APPPATH\Controllers\Spk.php(45): view('/Bobot/kriteria', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->bobot('kriteria')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

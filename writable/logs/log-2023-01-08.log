@@ -1,0 +1,90 @@
+CRITICAL - 2023-01-08 09:45:32 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH\CodeIgniter.php on line 193.
+ 1 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-01-08 02:47:35 --> Table 'spk_vikor.kriteria' doesn't exist in engine
+CRITICAL - 2023-01-08 02:47:35 --> Table 'spk_vikor.kriteria' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `kriteria`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kriteria`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kriteria`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 5 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:47:55 --> Table 'spk_vikor.kriteria' doesn't exist in engine
+CRITICAL - 2023-01-08 02:47:55 --> Call to a member function getResult() on bool
+in APPPATH\Models\KriteriaModel.php on line 27.
+ 1 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:50:57 --> Table 'spk_vikor.kriteria' doesn't exist in engine
+CRITICAL - 2023-01-08 02:50:57 --> Call to a member function getResult() on bool
+in APPPATH\Models\KriteriaModel.php on line 36.
+ 1 APPPATH\Controllers\Spk.php(27): App\Models\KriteriaModel->bobotc1()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:51:28 --> Table 'spk_vikor.kriteria' doesn't exist in engine
+CRITICAL - 2023-01-08 02:51:28 --> Call to a member function getResult() on bool
+in APPPATH\Models\KriteriaModel.php on line 54.
+ 1 APPPATH\Controllers\Spk.php(29): App\Models\KriteriaModel->bobotc3()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:51:54 --> Table 'spk_vikor.alternatif' doesn't exist in engine
+CRITICAL - 2023-01-08 02:51:54 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\AlternatifModel.php(17): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\Spk.php(41): App\Models\AlternatifModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:52:01 --> Table 'spk_vikor.kriteria' doesn't exist in engine
+CRITICAL - 2023-01-08 02:52:01 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\KriteriaModel.php(17): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\Spk.php(186): App\Models\KriteriaModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->kriteria()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:52:25 --> Table 'spk_vikor.kriteria' doesn't exist in engine
+CRITICAL - 2023-01-08 02:52:25 --> Call to a member function getResult() on bool
+in APPPATH\Models\KriteriaModel.php on line 27.
+ 1 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:55:13 --> Table 'spk_vikor.alternatif' doesn't exist in engine
+CRITICAL - 2023-01-08 02:55:13 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\AlternatifModel.php(17): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\Spk.php(41): App\Models\AlternatifModel->getData()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->alternatif()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

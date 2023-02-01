@@ -1,0 +1,24 @@
+CRITICAL - 2023-01-09 20:55:57 --> Undefined array key "absen"
+in APPPATH\Views\Penilaian\input_penilaian.php on line 52.
+ 1 APPPATH\Views\Penilaian\input_penilaian.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "absen"', 'APPPATH\\Views\\Penilaian\\input_penilaian.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Penilaian\\input_penilaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('penilaian/input_penilaian', [], true)
+ 5 APPPATH\Controllers\Spk.php(346): view('penilaian/input_penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->input_penilaian('A1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 20:56:38 --> Undefined array key "prestasi"
+in APPPATH\Views\Penilaian\input_penilaian.php on line 52.
+ 1 APPPATH\Views\Penilaian\input_penilaian.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prestasi"', 'APPPATH\\Views\\Penilaian\\input_penilaian.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Penilaian\\input_penilaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('penilaian/input_penilaian', [], true)
+ 5 APPPATH\Controllers\Spk.php(346): view('penilaian/input_penilaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->input_penilaian('A1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,202 @@
+ERROR - 2022-07-11 04:31:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 04:31:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+ 8 SYSTEMPATH\CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 04:32:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 04:32:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 3 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 04:32:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 04:32:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 3 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 04:32:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 04:32:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 3 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 04:33:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 04:33:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 3 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 04:36:01 --> Undefined variable $MinS
+in APPPATH\Views\hasil.php on line 107.
+ 1 APPPATH\Views\hasil.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MinS', 'APPPATH\\Views\\hasil.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hasil', [], true)
+ 5 APPPATH\Controllers\Spk.php(437): view('hasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->hasil()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 04:36:16 --> Undefined variable $MinS
+in APPPATH\Views\hasil.php on line 107.
+ 1 APPPATH\Views\hasil.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MinS', 'APPPATH\\Views\\hasil.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hasil', [], true)
+ 5 APPPATH\Controllers\Spk.php(437): view('hasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->hasil()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 04:37:54 --> Undefined variable $MinS
+in APPPATH\Views\hasil.php on line 117.
+ 1 APPPATH\Views\hasil.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MinS', 'APPPATH\\Views\\hasil.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hasil', [], true)
+ 5 APPPATH\Controllers\Spk.php(437): view('hasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->hasil()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 04:39:50 --> Undefined variable $MinS
+in APPPATH\Views\hasil.php on line 106.
+ 1 APPPATH\Views\hasil.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MinS', 'APPPATH\\Views\\hasil.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hasil', [], true)
+ 5 APPPATH\Controllers\Spk.php(437): view('hasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->hasil()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 04:39:53 --> Undefined variable $MinS
+in APPPATH\Views\hasil.php on line 106.
+ 1 APPPATH\Views\hasil.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MinS', 'APPPATH\\Views\\hasil.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hasil', [], true)
+ 5 APPPATH\Controllers\Spk.php(437): view('hasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->hasil()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 04:41:37 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\hasil.php on line 108.
+ 1 APPPATH\Views\hasil.php(108): array_push(null, 0.24799999999999972)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hasil', [], true)
+ 5 APPPATH\Controllers\Spk.php(437): view('hasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->hasil()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 04:42:58 --> Undefined variable $MinS
+in APPPATH\Views\hasil.php on line 115.
+ 1 APPPATH\Views\hasil.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MinS', 'APPPATH\\Views\\hasil.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hasil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('hasil', [], true)
+ 5 APPPATH\Controllers\Spk.php(437): view('hasil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->hasil()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 21:14:48 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 21:14:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 3 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 21:14:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 21:14:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 3 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 21:20:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-11 21:20:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kriteria`', [], false)
+ 3 APPPATH\Models\KriteriaModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Spk.php(26): App\Models\KriteriaModel->get()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Spk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
